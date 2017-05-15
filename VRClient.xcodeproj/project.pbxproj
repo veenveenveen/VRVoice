@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A0D156BF2D51D32C90A77B /* Pods_VRClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638EBE0D77A2F12CB772AC0E /* Pods_VRClient.framework */; };
+		61B8991C4B9828E0104C7C5C /* Pods_VRClient_VRClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC14E23F19D505E6A71B42C /* Pods_VRClient_VRClientTests.framework */; };
+		A976CA492341D68CA008155E /* Pods_VRClient_VRClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E1FE8B35B4F6DEBB1D390A /* Pods_VRClient_VRClientUITests.framework */; };
+		B6901036AA7069F29FACFC44 /* Pods_VRClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2FBC0BF03BCDD1EA5DE082 /* Pods_VRClientTests.framework */; };
+		BE6D9557AD9C80AAA5F7DD80 /* Pods_VRClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC9943A6518B263F211AC92 /* Pods_VRClientUITests.framework */; };
+		E23986171EB86F12006A4F24 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23986161EB86F12006A4F24 /* DashboardViewController.swift */; };
+		E23986191EB872E1006A4F24 /* AuthorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23986181EB872E1006A4F24 /* AuthorityViewController.swift */; };
+		E239861B1EB87698006A4F24 /* SandClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239861A1EB87698006A4F24 /* SandClockView.swift */; };
+		E239861D1EB9E07A006A4F24 /* CornerRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239861C1EB9E07A006A4F24 /* CornerRectView.swift */; };
+		E239861F1EBAFA38006A4F24 /* background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E239861E1EBAFA38006A4F24 /* background.PNG */; };
+		E23986211EBAFAC7006A4F24 /* AudioDefaultValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23986201EBAFAC7006A4F24 /* AudioDefaultValue.swift */; };
+		E23986231EBB09B3006A4F24 /* AudioOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23986221EBB09B3006A4F24 /* AudioOperator.swift */; };
 		E25D18171EB1DC9A0042BDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D18161EB1DC9A0042BDE5 /* AppDelegate.swift */; };
-		E25D18191EB1DC9A0042BDE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D18181EB1DC9A0042BDE5 /* ViewController.swift */; };
 		E25D181C1EB1DC9A0042BDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25D181A1EB1DC9A0042BDE5 /* Main.storyboard */; };
 		E25D181F1EB1DC9A0042BDE5 /* VRClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E25D181D1EB1DC9A0042BDE5 /* VRClient.xcdatamodeld */; };
 		E25D18211EB1DC9A0042BDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25D18201EB1DC9A0042BDE5 /* Assets.xcassets */; };
 		E25D18241EB1DC9A0042BDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25D18221EB1DC9A0042BDE5 /* LaunchScreen.storyboard */; };
 		E25D182F1EB1DC9A0042BDE5 /* VRClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D182E1EB1DC9A0042BDE5 /* VRClientTests.swift */; };
 		E25D183A1EB1DC9A0042BDE5 /* VRClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D18391EB1DC9A0042BDE5 /* VRClientUITests.swift */; };
+		E25D18481EB1DDDB0042BDE5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D18471EB1DDDA0042BDE5 /* CoreDataManager.swift */; };
+		E25D184A1EB2EBE20042BDE5 /* AudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D18491EB2EBE20042BDE5 /* AudioData.swift */; };
+		E25D184C1EB31FBC0042BDE5 /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D184B1EB31FBC0042BDE5 /* RecordListViewController.swift */; };
+		E25D184E1EB327DB0042BDE5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D184D1EB327DB0042BDE5 /* MasterViewController.swift */; };
+		E2A402F51EC19E0400E79A1E /* AudioClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A402F41EC19E0400E79A1E /* AudioClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F8B0C5DE5E364B4B23671D /* Pods-VRClient-VRClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient-VRClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient-VRClientUITests/Pods-VRClient-VRClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BBB01A953C602DAA41D05DD /* Pods-VRClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRClientTests/Pods-VRClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D2FBC0BF03BCDD1EA5DE082 /* Pods_VRClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1FE8B35B4F6DEBB1D390A /* Pods_VRClient_VRClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRClient_VRClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E5447D5BFAFB31FA8479E3 /* Pods-VRClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient/Pods-VRClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2C5D57E889A26651964F210C /* Pods-VRClient-VRClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient-VRClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient-VRClientTests/Pods-VRClient-VRClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC9943A6518B263F211AC92 /* Pods_VRClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638EBE0D77A2F12CB772AC0E /* Pods_VRClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FFC6CDB527445F84933C0E /* Pods-VRClient-VRClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient-VRClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient-VRClientTests/Pods-VRClient-VRClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		801232D24EC8B033117E5BB4 /* Pods-VRClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRClientTests/Pods-VRClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		881DA365E8FBCE7073C27B08 /* Pods-VRClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRClientUITests/Pods-VRClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC14E23F19D505E6A71B42C /* Pods_VRClient_VRClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRClient_VRClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF20C52906F468B752C876CB /* Pods-VRClient-VRClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient-VRClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient-VRClientUITests/Pods-VRClient-VRClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E23986161EB86F12006A4F24 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		E23986181EB872E1006A4F24 /* AuthorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorityViewController.swift; sourceTree = "<group>"; };
+		E239861A1EB87698006A4F24 /* SandClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandClockView.swift; sourceTree = "<group>"; };
+		E239861C1EB9E07A006A4F24 /* CornerRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRectView.swift; sourceTree = "<group>"; };
+		E239861E1EBAFA38006A4F24 /* background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.PNG; sourceTree = "<group>"; };
+		E23986201EBAFAC7006A4F24 /* AudioDefaultValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDefaultValue.swift; sourceTree = "<group>"; };
+		E23986221EBB09B3006A4F24 /* AudioOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioOperator.swift; sourceTree = "<group>"; };
 		E25D18131EB1DC9A0042BDE5 /* VRClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25D18161EB1DC9A0042BDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E25D18181EB1DC9A0042BDE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E25D181B1EB1DC9A0042BDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25D181E1EB1DC9A0042BDE5 /* VRClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VRClient.xcdatamodel; sourceTree = "<group>"; };
 		E25D18201EB1DC9A0042BDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +84,13 @@
 		E25D18351EB1DC9A0042BDE5 /* VRClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25D18391EB1DC9A0042BDE5 /* VRClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRClientUITests.swift; sourceTree = "<group>"; };
 		E25D183B1EB1DC9A0042BDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25D18471EB1DDDA0042BDE5 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E25D18491EB2EBE20042BDE5 /* AudioData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioData.swift; sourceTree = "<group>"; };
+		E25D184B1EB31FBC0042BDE5 /* RecordListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		E25D184D1EB327DB0042BDE5 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E2A402F41EC19E0400E79A1E /* AudioClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioClient.swift; sourceTree = "<group>"; };
+		E3A08463BBF855A234CABBFC /* Pods-VRClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRClientUITests/Pods-VRClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F24443DB487FCECADCBEEA7D /* Pods-VRClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRClient/Pods-VRClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A0D156BF2D51D32C90A77B /* Pods_VRClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6901036AA7069F29FACFC44 /* Pods_VRClientTests.framework in Frameworks */,
+				61B8991C4B9828E0104C7C5C /* Pods_VRClient_VRClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +115,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6D9557AD9C80AAA5F7DD80 /* Pods_VRClientUITests.framework in Frameworks */,
+				A976CA492341D68CA008155E /* Pods_VRClient_VRClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A723FC26C7E55373E7001DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638EBE0D77A2F12CB772AC0E /* Pods_VRClient.framework */,
+				0D2FBC0BF03BCDD1EA5DE082 /* Pods_VRClientTests.framework */,
+				5BC9943A6518B263F211AC92 /* Pods_VRClientUITests.framework */,
+				BBC14E23F19D505E6A71B42C /* Pods_VRClient_VRClientTests.framework */,
+				16E1FE8B35B4F6DEBB1D390A /* Pods_VRClient_VRClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B811A323FDF8BA4924ADCE1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E5447D5BFAFB31FA8479E3 /* Pods-VRClient.debug.xcconfig */,
+				F24443DB487FCECADCBEEA7D /* Pods-VRClient.release.xcconfig */,
+				801232D24EC8B033117E5BB4 /* Pods-VRClientTests.debug.xcconfig */,
+				0BBB01A953C602DAA41D05DD /* Pods-VRClientTests.release.xcconfig */,
+				881DA365E8FBCE7073C27B08 /* Pods-VRClientUITests.debug.xcconfig */,
+				E3A08463BBF855A234CABBFC /* Pods-VRClientUITests.release.xcconfig */,
+				2C5D57E889A26651964F210C /* Pods-VRClient-VRClientTests.debug.xcconfig */,
+				63FFC6CDB527445F84933C0E /* Pods-VRClient-VRClientTests.release.xcconfig */,
+				DF20C52906F468B752C876CB /* Pods-VRClient-VRClientUITests.debug.xcconfig */,
+				02F8B0C5DE5E364B4B23671D /* Pods-VRClient-VRClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E23986111EB82C8B006A4F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A402F41EC19E0400E79A1E /* AudioClient.swift */,
+				E25D18491EB2EBE20042BDE5 /* AudioData.swift */,
+				E25D18471EB1DDDA0042BDE5 /* CoreDataManager.swift */,
+				E23986201EBAFAC7006A4F24 /* AudioDefaultValue.swift */,
+				E23986221EBB09B3006A4F24 /* AudioOperator.swift */,
+				E25D181D1EB1DC9A0042BDE5 /* VRClient.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E23986121EB82C99006A4F24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E25D184B1EB31FBC0042BDE5 /* RecordListViewController.swift */,
+				E23986161EB86F12006A4F24 /* DashboardViewController.swift */,
+				E23986181EB872E1006A4F24 /* AuthorityViewController.swift */,
+				E239861A1EB87698006A4F24 /* SandClockView.swift */,
+				E239861C1EB9E07A006A4F24 /* CornerRectView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E23986131EB82CA0006A4F24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E25D184D1EB327DB0042BDE5 /* MasterViewController.swift */,
+				E25D181A1EB1DC9A0042BDE5 /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E23986141EB82D0C006A4F24 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E25D18221EB1DC9A0042BDE5 /* LaunchScreen.storyboard */,
+				E25D18251EB1DC9A0042BDE5 /* Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E23986151EB82D3B006A4F24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E25D18201EB1DC9A0042BDE5 /* Assets.xcassets */,
+				E239861E1EBAFA38006A4F24 /* background.PNG */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E25D180A1EB1DC9A0042BDE5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +211,8 @@
 				E25D182D1EB1DC9A0042BDE5 /* VRClientTests */,
 				E25D18381EB1DC9A0042BDE5 /* VRClientUITests */,
 				E25D18141EB1DC9A0042BDE5 /* Products */,
+				B811A323FDF8BA4924ADCE1E /* Pods */,
+				8A723FC26C7E55373E7001DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +230,11 @@
 			isa = PBXGroup;
 			children = (
 				E25D18161EB1DC9A0042BDE5 /* AppDelegate.swift */,
-				E25D18181EB1DC9A0042BDE5 /* ViewController.swift */,
-				E25D181A1EB1DC9A0042BDE5 /* Main.storyboard */,
-				E25D18201EB1DC9A0042BDE5 /* Assets.xcassets */,
-				E25D18221EB1DC9A0042BDE5 /* LaunchScreen.storyboard */,
-				E25D18251EB1DC9A0042BDE5 /* Info.plist */,
-				E25D181D1EB1DC9A0042BDE5 /* VRClient.xcdatamodeld */,
+				E23986131EB82CA0006A4F24 /* Controllers */,
+				E23986121EB82C99006A4F24 /* Views */,
+				E23986111EB82C8B006A4F24 /* Model */,
+				E23986151EB82D3B006A4F24 /* Resources */,
+				E23986141EB82D0C006A4F24 /* SupportFiles */,
 			);
 			path = VRClient;
 			sourceTree = "<group>";
@@ -135,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25D183E1EB1DC9A0042BDE5 /* Build configuration list for PBXNativeTarget "VRClient" */;
 			buildPhases = (
+				EADE1B519212D28A8C8B93C8 /* [CP] Check Pods Manifest.lock */,
 				E25D180F1EB1DC9A0042BDE5 /* Sources */,
 				E25D18101EB1DC9A0042BDE5 /* Frameworks */,
 				E25D18111EB1DC9A0042BDE5 /* Resources */,
+				9594193B5B696DBC0CAD1F5A /* [CP] Embed Pods Frameworks */,
+				0F9C87D97B52BFBA0DDE4EC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25D18411EB1DC9A0042BDE5 /* Build configuration list for PBXNativeTarget "VRClientTests" */;
 			buildPhases = (
+				F1F1AD3B419B09118023CFCC /* [CP] Check Pods Manifest.lock */,
 				E25D18261EB1DC9A0042BDE5 /* Sources */,
 				E25D18271EB1DC9A0042BDE5 /* Frameworks */,
 				E25D18281EB1DC9A0042BDE5 /* Resources */,
+				BE0F8E84610909C250394624 /* [CP] Embed Pods Frameworks */,
+				358EA25523219E6EF6931FE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25D18441EB1DC9A0042BDE5 /* Build configuration list for PBXNativeTarget "VRClientUITests" */;
 			buildPhases = (
+				8E386ABFA2880C321B8A68C4 /* [CP] Check Pods Manifest.lock */,
 				E25D18311EB1DC9A0042BDE5 /* Sources */,
 				E25D18321EB1DC9A0042BDE5 /* Frameworks */,
 				E25D18331EB1DC9A0042BDE5 /* Resources */,
+				9FB6C9F2965827512D4E480F /* [CP] Embed Pods Frameworks */,
+				44A77472833FE8CA9A596F45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25D18241EB1DC9A0042BDE5 /* LaunchScreen.storyboard in Resources */,
+				E239861F1EBAFA38006A4F24 /* background.PNG in Resources */,
 				E25D18211EB1DC9A0042BDE5 /* Assets.xcassets in Resources */,
 				E25D181C1EB1DC9A0042BDE5 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +399,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F9C87D97B52BFBA0DDE4EC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient/Pods-VRClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		358EA25523219E6EF6931FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient-VRClientTests/Pods-VRClient-VRClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A77472833FE8CA9A596F45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient-VRClientUITests/Pods-VRClient-VRClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E386ABFA2880C321B8A68C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9594193B5B696DBC0CAD1F5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient/Pods-VRClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB6C9F2965827512D4E480F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient-VRClientUITests/Pods-VRClient-VRClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0F8E84610909C250394624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VRClient-VRClientTests/Pods-VRClient-VRClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADE1B519212D28A8C8B93C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F1AD3B419B09118023CFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E25D180F1EB1DC9A0042BDE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25D18191EB1DC9A0042BDE5 /* ViewController.swift in Sources */,
+				E23986191EB872E1006A4F24 /* AuthorityViewController.swift in Sources */,
+				E25D184C1EB31FBC0042BDE5 /* RecordListViewController.swift in Sources */,
+				E239861B1EB87698006A4F24 /* SandClockView.swift in Sources */,
+				E239861D1EB9E07A006A4F24 /* CornerRectView.swift in Sources */,
+				E23986171EB86F12006A4F24 /* DashboardViewController.swift in Sources */,
 				E25D18171EB1DC9A0042BDE5 /* AppDelegate.swift in Sources */,
+				E23986211EBAFAC7006A4F24 /* AudioDefaultValue.swift in Sources */,
+				E2A402F51EC19E0400E79A1E /* AudioClient.swift in Sources */,
+				E25D18481EB1DDDB0042BDE5 /* CoreDataManager.swift in Sources */,
+				E23986231EBB09B3006A4F24 /* AudioOperator.swift in Sources */,
 				E25D181F1EB1DC9A0042BDE5 /* VRClient.xcdatamodeld in Sources */,
+				E25D184E1EB327DB0042BDE5 /* MasterViewController.swift in Sources */,
+				E25D184A1EB2EBE20042BDE5 /* AudioData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +612,7 @@
 		E25D183C1EB1DC9A0042BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -375,6 +663,7 @@
 		E25D183D1EB1DC9A0042BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -417,11 +706,16 @@
 		};
 		E25D183F1EB1DC9A0042BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E5447D5BFAFB31FA8479E3 /* Pods-VRClient.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = VRClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.VRClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -430,11 +724,16 @@
 		};
 		E25D18401EB1DC9A0042BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24443DB487FCECADCBEEA7D /* Pods-VRClient.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = VRClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.VRClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -443,6 +742,7 @@
 		};
 		E25D18421EB1DC9A0042BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5D57E889A26651964F210C /* Pods-VRClient-VRClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +758,7 @@
 		};
 		E25D18431EB1DC9A0042BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FFC6CDB527445F84933C0E /* Pods-VRClient-VRClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +774,7 @@
 		};
 		E25D18451EB1DC9A0042BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF20C52906F468B752C876CB /* Pods-VRClient-VRClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
@@ -487,6 +789,7 @@
 		};
 		E25D18461EB1DC9A0042BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F8B0C5DE5E364B4B23671D /* Pods-VRClient-VRClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
@@ -518,6 +821,7 @@
 				E25D18401EB1DC9A0042BDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E25D18411EB1DC9A0042BDE5 /* Build configuration list for PBXNativeTarget "VRClientTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +830,7 @@
 				E25D18431EB1DC9A0042BDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E25D18441EB1DC9A0042BDE5 /* Build configuration list for PBXNativeTarget "VRClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +839,7 @@
 				E25D18461EB1DC9A0042BDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
